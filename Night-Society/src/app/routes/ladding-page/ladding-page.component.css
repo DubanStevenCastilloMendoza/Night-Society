@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+
+section{
+        /* min-height: 100vh;
+        padding: 10rem 9% 2rem; */
+        width: 100%;
+        height: 600px;
+        padding: 8rem 9% 2rem;
+}
+/*header home page*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text .imagen-logo img{
+    width: 400px;
+    height: 400px;
+}
+.sig-in{
+    width: 170px;
+    background-color: #190F40;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.sig-in:hover{
+    background-color: #571673;
+}
+.register{
+    width: 300px !important;
+    background-color: #190F40;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.register:hover{
+    background-color: #571673;
+}
+
+/* que es */
+.que-es{
+    display: flex;
+    gap: 5px;
+}
+.textos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.img-text img{
+    width: 500px;
+    height: 500px;
+}
+
+/* por que usar*/
+.porque-usar{
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+}
+.img-text-2 img{
+    width: 500px;
+    height: 500px;
+}
+.textos-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    margin-top: 4rem;
+    padding: 8rem 10% 2rem;
+    background-color: #190F40;
+}
+.red a i{
+    color: white;
+    font-size: 26px;
+}
+
+.name-log h4{
+    margin-top: 30px;
+    color: white;
+}
+.name-log p{
+    color: white;
+}
+.links-privacity{
+    text-align: center;
+}
+.links-privacity a{
+    color: white;
+}
+
+/* header home page
+
+
+.img-text-2 img{
+    width: 500px;
+    height: 500px;
+}
+
+.textos-2 p{
+    width: 500px;
+    text-align: justify;
+}
+.fo{
+    background-color: #190F40;
+   
+}
+.red a i{
+    color: white;
+    font-size: 26px;
+}
+
+.name-log h4{
+    margin-top: 30px;
+    color: white;
+}
+.name-log p{
+    color: white;
+}
+.links-privacity{
+    text-align: center;
+}
+.links-privacity a{
+    color: white;
+}
+
+
+@media (max-width: 900px) {
+.img-text img{
+    width: 300px;
+    height: 300px;
+}
+.textos p{
+    width: 400px;
+    text-align: justify;
+}
+.img-text-2 img{
+    width: 300px;
+    height: 300px;
+}
+.textos-2 p{
+    width: 400px;
+    text-align: justify;
+}
+}
+
+
+@media (max-width: 700px) {
+    .logo h3{
+        font-size: 18px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+    .img-text img{
+        width: 220px;
+        height: 220px;
+    }
+    .textos p{
+        width: 320px;
+        text-align: justify;
+    }
+    .img-text-2 img{
+        width: 220px;
+        height: 220px;
+    }
+    .textos-2 p{
+        width: 320px;
+        text-align: justify;
+    }
+    }
+
+
+    
+@media (max-width: 600px) {
+
+    .logo h3{
+        font-size: 16px;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+
+    .container-xxl{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .img-text img{
+        width: 220px;
+        height: 220px;
+    }
+    .textos p{
+        width: 320px;
+        text-align: justify;
+    }
+    .img-text-2 img{
+        width: 220px;
+        height: 220px;
+    }
+    .textos-2 p{
+        width: 320px;
+        text-align: justify;
+    }
+    } */
